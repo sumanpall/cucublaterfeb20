@@ -3,7 +3,7 @@ Feature: Pixel store
   Background: 
     Given App is opened
 
-  # And OR Not tags are used
+  # And  Not tags are used
   @Regression @Smoke
   Scenario: Executive login
     When Executive enter their userid as "Alice999"
